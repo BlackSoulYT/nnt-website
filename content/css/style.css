@@ -181,3 +181,21 @@ footer {
   border-radius: 5px;
   background-color: red;
 }
+
+.header {
+  font-size: 14px;
+  color: green;
+}
+
+.paragraph {
+  color: white;
+}
+
+.paragraph li {
+  color: white;
+  opacity: 0.85;
+}
+
+.paragraph ol[type=a] {
+  margin-top: -25px;
+}
