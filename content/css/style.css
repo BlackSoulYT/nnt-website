@@ -1,0 +1,183 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  display: table;
+  table-layout: fixed;
+}
+
+main {
+  display: table-row;
+  height: 100%;
+}
+
+footer {
+  display: table-row;
+}
+
+#footer {
+  border-top: 1px solid grey;
+  margin-top: 20px;
+}
+
+#footer span {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#footer p {
+  color: grey;
+  font-size: 12px;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 1000px) {
+  #footer label {
+    width: 100%;
+    float: middle !important!;
+    text-align-last: center;
+  }
+  #footer p {
+    width: 100%;
+    float: middle !important!;
+    text-align-last: center;
+  }
+  .dropdown {
+    padding-right: 0 !important;
+  }
+  .dropdown-menu {
+    transform: translate3d(0px, 40px, 0px) !important;
+  }
+  .card {
+    width: 100% !important;
+    text-align-last: center;
+    margin: 0 !important;
+    margin-bottom: 5px !important;
+    flex: 0;
+  }
+  .card-pair {
+    display: initial !important;
+  }
+  .placeholder {
+    display: none !important;
+  }
+}
+
+.left {
+  float: left !important;
+}
+
+.right {
+  float: right !important;
+}
+
+.middle {
+  display: block;
+  text-align: center;
+}
+
+.profile-name {
+  margin-top: -15px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.icon {
+  position: relative;
+}
+
+.icon i {
+  position: absolute;
+  right: 5px;
+  top: 33px;
+  color: gray;
+}
+
+.card {
+  flex: 1;
+}
+
+.product {
+  display: inline-block;
+  opacity: 0.85;
+  margin: 10px;
+}
+
+.product a {
+  color: white;
+}
+
+.product a:hover {
+  text-decoration: none;
+}
+
+.product:hover {
+  opacity: 1;
+}
+
+.price {
+  background-color: grey;
+  border-radius: 5px;
+  padding: 1px 9px;
+  float: right;
+  margin: -5px;
+}
+
+.limited {
+  float: left;
+  margin: auto -5px;
+  background-color: red;
+  border-radius: 5px;
+  padding: 1px 9px;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+.placeholder {
+  opacity: 0 !important;
+}
+
+.priv-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.priv-list li {
+  padding-left: 1.3em;
+  list-style: none;
+}
+
+.priv-list li:before {
+  content: "-"; /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em; /* same as padding-left set on li */
+  width: 1.3em; /* same as padding-left set on li */
+}
+
+.card-pair {
+  display: flex;
+}
+
+.rank label {
+  white-space: nowrap;
+  padding: 1px 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 4px;
+  background-color: black;
+}
+
+.profile-name label {
+  font-size: 20px;
+  padding: 0 5px;
+  border-radius: 5px;
+  background-color: red;
+}
