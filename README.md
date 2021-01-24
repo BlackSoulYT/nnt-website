@@ -66,7 +66,7 @@ DH-06:
 Die Empfänger SteamID konnte keinem Benutzerkonto auf der Webseite zugeordnet werden.
 (Der Empfänger muss sich mindestens einmal auf der Webseite angemeldet haben.)
 
-> __Contact___
+> __Contact__
 
 CO-01:
 
