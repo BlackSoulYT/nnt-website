@@ -1,6 +1,7 @@
 # Alle möglichen Fehlercodes für die [NNT-Webseite](https://nurnochttt.de/)
 
 > __Login__
+
 LO-01:
 Der Login konnte nicht erfolgreich verifizert werden.
 Mögliche Ursachen:
