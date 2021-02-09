@@ -87,6 +87,17 @@ footer {
   text-transform: uppercase;
 }
 
+.spoiler {
+	padding: 1px 4px;
+	border-radius: 4px;
+	color: black;
+	background-color: black;
+}
+
+.spoiler:hover {
+	color: white;
+}
+
 .icon {
   position: relative;
 }
